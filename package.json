@@ -1,0 +1,24 @@
+{
+  "author": "Talles L <talleslasmar@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/tallesl/safe-mkdir/issues"
+  },
+  "description": "mkdir that ignore EEXIST",
+  "homepage": "https://github.com/tallesl/safe-mkdir",
+  "keywords": [
+    "safe",
+    "mkdir",
+    "eexist"
+  ],
+  "license": "ISC",
+  "main": "./lib/safe-mkdir.js",
+  "name": "safe-mkdir",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tallesl/safe-mkdir"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
