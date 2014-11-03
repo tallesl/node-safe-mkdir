@@ -12,7 +12,7 @@ A version of `fs.mkdir` and `fs.mkdirSync` that doesn't raise *EEXIST*.
 
 ```javascript
 $ npm install safe-mkdir
-safe-mkdir@1.0.0 node_modules/safe-mkdir
+safe-mkdir@1.0.1 node_modules/safe-mkdir
 $ node
 > var safeMkdir = require('safe-mkdir').mkdir
 undefined
