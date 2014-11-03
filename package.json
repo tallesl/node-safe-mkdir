@@ -3,7 +3,7 @@
   "bugs": {
     "url": "https://github.com/tallesl/safe-mkdir/issues"
   },
-  "description": "mkdir that ignore EEXIST",
+  "description": "mkdir that ignores EEXIST",
   "homepage": "https://github.com/tallesl/safe-mkdir",
   "keywords": [
     "safe",
