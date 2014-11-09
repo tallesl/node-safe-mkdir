@@ -10,7 +10,7 @@
     "mkdir",
     "eexist"
   ],
-  "license": "ISC",
+  "license": "Fair",
   "main": "./lib/safe-mkdir.js",
   "name": "safe-mkdir",
   "repository": {
@@ -22,3 +22,4 @@
   },
   "version": "1.0.1"
 }
+

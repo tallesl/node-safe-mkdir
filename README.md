@@ -21,3 +21,4 @@ undefined
 > safeMkdir('crazy-folder') // fs.mkdir would throw EEXIST
 undefined
 ```
+
