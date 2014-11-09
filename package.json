@@ -4,6 +4,9 @@
     "url": "https://github.com/tallesl/safe-mkdir/issues"
   },
   "description": "mkdir that ignores EEXIST",
+  "directories": {
+    "lib": "./lib"
+  },
   "homepage": "https://github.com/tallesl/safe-mkdir",
   "keywords": [
     "safe",
