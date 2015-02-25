@@ -16,9 +16,9 @@ safe-mkdir@1.0.2 node_modules/safe-mkdir
 $ node
 > var safeMkdir = require('safe-mkdir').mkdir
 undefined
-> safeMkdir('crazy-folder')
-undefined
-> safeMkdir('crazy-folder') // fs.mkdir would throw EEXIST
+> safeMkdir('crazy-folder', function(err) { // fs.mkdir would throw EEXIST
+    //handle
+});
 undefined
 ```
 
