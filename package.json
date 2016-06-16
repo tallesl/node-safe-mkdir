@@ -1,28 +1,29 @@
 {
   "author": "Talles L <talleslasmar@gmail.com>",
   "bugs": {
-    "url": "https://github.com/tallesl/safe-mkdir/issues"
+    "url": "https://github.com/tallesl/node-safe-mkdir/issues"
   },
-  "description": "mkdir that ignores EEXIST",
-  "directories": {
-    "lib": "./lib"
+  "description": "mkdir that ignores EEXIST.",
+  "devDependencies": {
+    "coveralls": "^2.11.9",
+    "istanbul": "^0.4.3",
+    "mocha": "^2.5.3",
+    "rimraf": "^2.5.2",
+    "standard": "^7.1.2"
   },
-  "homepage": "https://github.com/tallesl/safe-mkdir",
   "keywords": [
     "safe",
     "mkdir",
     "eexist"
   ],
   "license": "Fair",
-  "main": "./lib/safe-mkdir.js",
   "name": "safe-mkdir",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tallesl/safe-mkdir"
+    "url": "https://github.com/tallesl/node-safe-mkdir.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "standard && mocha"
   },
   "version": "1.0.3"
 }
-

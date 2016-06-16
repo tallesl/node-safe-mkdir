@@ -1,4 +1,6 @@
-var fs = require('fs')
+'use strict'
+
+const fs = require('fs')
 
 exports.mkdir = mkdir
 exports.mkdirSync = mkdirSync
@@ -10,12 +12,12 @@ function mkdir (path, mode, callback) {
   }
 
   if (callback) {
-    fs.mkdir(path, mode, function (err) {
-      if (err && err.code !== 'EEXIST') callback(err);
-      else callback();
+    fs.mkdir(path, mode, (err) => {
+      if (err && err.code !== 'EEXIST') callback(err)
+      else callback()
     })
   } else {
-    process.nextTick(function () {
+    process.nextTick(() => {
       mkdirSync(path, mode)
     })
   }
@@ -28,4 +30,3 @@ function mkdirSync (path, mode) {
     if (err.code !== 'EEXIST') throw err
   }
 }
-
